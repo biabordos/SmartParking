@@ -51,7 +51,7 @@ void loop() {
   long d2 = citesteDistanta(trigIesire, echoIesire);
 
   // LOGICA INTRARE (Senzor Stanga)
-  if (d1 > 0 && d1 < 20 && locuriDisponibile > 0) {// Dacă distanța la senzorul 1 este mică ȘI mai avem locuri libere (locuri > 0)
+  if (d1 > 0 && d1 < 20 && locuriDisponibile > 0) {// daca distanta la senzorul 1 este mica si mai avem locuri libere (locuri > 0)
     locuriDisponibile--;// scade nr locuri libere 
     lcd.clear();
     lcd.print("PIN ACCES: ");
